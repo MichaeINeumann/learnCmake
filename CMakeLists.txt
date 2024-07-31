@@ -8,8 +8,5 @@ project(
     set(EXECUTABLE_NAME test)
     set(LIBRARY_NAME Lib)
 
-    add_library(${LIBRARY_NAME} myLib.cpp)
-
-    add_executable(${EXECUTABLE_NAME} main.cpp)
-
-    target_link_libraries(${EXECUTABLE_NAME} ${LIBRARY_NAME})
+    add_subdirectory(src)
+    add_subdirectory(app)
