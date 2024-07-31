@@ -1,7 +1,10 @@
 #include <iostream>
+
+#include "myLib.h"
+
 using namespace std;
 
 int main(){
-    cout << "Hello World" << endl;
+    display("Hello World");
     return 0;
 }

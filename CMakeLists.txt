@@ -5,4 +5,11 @@ project(
     VERSION 0.0.0
     LANGUAGES C CXX)
 
-    add_executable(Executable main.cpp)
+    set(EXECUTABLE_NAME test)
+    set(LIBRARY_NAME Lib)
+
+    add_library(${LIBRARY_NAME} myLib.cpp)
+
+    add_executable(${EXECUTABLE_NAME} main.cpp)
+
+    target_link_libraries(${EXECUTABLE_NAME} ${LIBRARY_NAME})
