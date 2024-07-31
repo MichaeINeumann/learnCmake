@@ -10,3 +10,8 @@
 
 GCC 14.1.0 (with POSIX threads) + LLVM/Clang/LLD/LLDB 18.1.8 + MinGW-w64 12.0.0 (UCRT) - release 3   (LATEST) precompiled -> <https://winlibs.com/#download-release>
 (at bin Folder to Path)
+
+## Links
+
+- <https://github.com/franneck94/UdemyCppPro.git>
+- <https://github.com/franneck94/CppProjectTemplate.git>
